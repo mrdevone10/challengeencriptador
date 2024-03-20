@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Encriptador de texto</title>
+</head>
+<body>
+    
+    <!--Encabezado-->
+    <header>
+        <a href="#" rel="">
+            <img src="./img/logo.svg" alt="Logo Alura" class="logo">
+        </a>
+    </header>
+
+    <!-- principal -->
+    <main>
+        <section class="encriptador">
+            <textarea class="encriptar" placeholder="Ingrese el texto aquí"></textarea>
+            <div class="encriptador-aviso">
+                <img src="./img/aviso.svg" alt="Imagen aviso" class="img-aviso">
+                <p class="texto-aviso">Solo letras minúsculas y sin acentos</p>
+            </div>
+            <div class="encriptador-contenedor">
+                <button type="submit" class="btn-encriptar">Encriptar!</button>
+                <button type="submit" class="btn-desencriptar">Desencriptar!</button>
+            </div>
+        </section>
+        <section class="tarjeta">
+            <div class="tarjeta-contenedor">
+                <img src="./img/muñeco.svg" alt="Imagen-muñeco" class="img-muñeco">
+                <p class="texto-uno">Ningún mesaje fue encontrado</p>
+                <p class="texto-dos">Ingrese el texto que deseas encriptar o desencriptar</p>
+            </div>
+            <textarea type="mensaje" class="evaluar" readonly></textarea>
+            <button type="submit" class="btn-copiar">Copiar</button>
+        </section>
+    </main>
+
+    <!-- Pie de Página -->
+    <footer>
+        <p class="copyright">&copy; copyright 2024 - Encriptador de texto</p>
+        <a href="#" rel="">
+            <img src="./img/linkedin.svg" alt="Logo Linkedin" class="linked">
+        </a>
+        <a href="#" rel="" >
+            <img src="./img/github.svg" alt="Logo Github" class="git">
+        </a>
+    </footer>
+
+    <script src="./js/index.js"></script>
+
+</body>
+</html>
